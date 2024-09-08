@@ -1,0 +1,177 @@
+.mainnv{
+    height: 100px;
+    width: 100%;
+    display: flex;
+}
+.navbar{
+    height: 100%;
+    width: 90%;
+}
+.container-fluid,.nav-link{
+    width: 200px;
+    gap: 20px;
+}
+.Positive{
+    height: 100%;
+    width: 20%;
+    color:lawngreen;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bolder;
+    
+}
+.emptysection{
+    height: 1200px;
+    width: 100%;
+}
+.firstlane{
+    height: 300px;
+    width: 100%;
+    
+    display: flex;
+}
+.left{
+    height: 100%;
+    width: 50%;
+    color: black;
+    
+}
+.para{
+    color: black;
+}
+.right{
+    height:100%;
+    margin-left:400px;
+}
+.blackframe{
+    height: 25px;
+    width: 150px;
+    background-color: black;
+    color: white;
+}
+.secondlane{
+    height: 150px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    column-gap: 110px;
+}
+.amazon,.dribble,.hubspot,.notion,.netflex,.zoom{
+    height: 100%;
+    width: 10%;
+    
+}
+.thirdlane{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    
+}
+.services{
+ height: 100%;
+ width: 40%;
+ color: yellowgreen;
+ font-weight:bolder;
+ text-align: center;
+ justify-content: center;
+ padding-top: 30px;
+}
+.detail{
+    justify-content: center;
+    text-align: center;
+    margin-top:40px;
+}
+/* .text{
+    height: 100%;
+    width: 60%;
+    background-color:blue;
+   } */
+   .forthlane{
+    height: 300px;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    column-gap: 150px;
+   }
+   .searchingen,.pay{
+    height: 100%;
+    width: 40%;
+    border-radius: 20px;
+    border: solid 2px black;
+    
+   }
+   .pay{
+    background-color: chartreuse;
+   }
+
+.footer{
+    margin-top: 30px;
+    height: 300px;
+    width: 100%;
+    background-color: black;
+}
+.icon{
+    height: 50%;
+    width: 100%;
+    border: solid 2px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    height: 35%;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.nav{
+    margin-bottom: 30px;
+}
+.note{
+    height: 15%;
+    width: 100%;
+    border: solid 2px black;
+}
+.icon1,.icon2,.icon3,.icon4,.icon5{
+    height: 100px;
+    width: 100px;
+    padding-top: 25px;
+    
+}
+
+.text{
+    justify-content: center;
+    padding-top: 40px;
+}
+p{
+    color: white;
+    text-align: center;
+}
+.info{
+    height: 60px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
+.btn{
+    background-color: white;
+}
+@media only screen and ( max-width: 550px){
+    .text{
+      flex-wrap: wrap;
+    }
+}
+@media only screen and ( max-width: 550px){
+    .text,.note{
+      height: 50%;
+    }
+}
+@media only screen and ( max-width: 550px){
+    .note{
+      background-color: black;
+    }
+}
+
+    
